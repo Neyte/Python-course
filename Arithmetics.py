@@ -10,7 +10,7 @@ discr = b*b - 4*a*c
 if discr < 0:
     print("нет пути...")
 elif discr == 0:
-    print("X = ",b/2/a)
+    print("X = ",-b/(2*a))
 else:
     print("X1 = ",(-b+sqrt(discr))/(2*a))
     print("X2 = ",(-b-sqrt(discr))/(2*a))
