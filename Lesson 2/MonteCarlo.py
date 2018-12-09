@@ -1,5 +1,6 @@
 import random
 random.seed(42)
+print(end='\n')
 
 #   y = -x^2 + 4
 S_sq = 16
@@ -12,4 +13,4 @@ for i in range(n):
     y = random.uniform(0, 4)
     if y <= -(x-2)*(x-2) + 4:
         N_p += 1
-print("S_p = {0}".format(S_sq * N_p / n))
+print('S_p = {0:.2f}'.format(S_sq * N_p / n))
