@@ -1,6 +1,8 @@
 n = int(input('Какого фибоначчи вам тут надо?'))
 f = [0,1,1]
-if n <= 2:
+if n < 0:
+    print('Нет таких чисел в нашем алфавите')
+elif n <= 2:
     print(f[n])
 else:
     for i in range(n-2):
